@@ -1,0 +1,54 @@
+[
+  {
+    "feature": "cp",
+    "mean_abs_shap": 0.5483797934742286
+  },
+  {
+    "feature": "ca",
+    "mean_abs_shap": 0.5169471142120714
+  },
+  {
+    "feature": "oldpeak",
+    "mean_abs_shap": 0.5135492095988486
+  },
+  {
+    "feature": "thalach",
+    "mean_abs_shap": 0.4295680406926621
+  },
+  {
+    "feature": "thal",
+    "mean_abs_shap": 0.25567181731915467
+  },
+  {
+    "feature": "exang",
+    "mean_abs_shap": 0.22981876130025083
+  },
+  {
+    "feature": "trestbps",
+    "mean_abs_shap": 0.17674354473039383
+  },
+  {
+    "feature": "gender",
+    "mean_abs_shap": 0.17073171048117905
+  },
+  {
+    "feature": "slope",
+    "mean_abs_shap": 0.13105766948746164
+  },
+  {
+    "feature": "restecg",
+    "mean_abs_shap": 0.08018245136177543
+  },
+  {
+    "feature": "chol",
+    "mean_abs_shap": 0.06648787886149894
+  },
+  {
+    "feature": "age",
+    "mean_abs_shap": 0.025299718617445417
+  },
+  {
+    "feature": "fbs",
+    "mean_abs_shap": 0.0005667946186504658
+  }
+]
