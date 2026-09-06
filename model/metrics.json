@@ -1,0 +1,36 @@
+{
+  "test_accuracy": 0.7966101694915254,
+  "best_params": {
+    "solver": "liblinear",
+    "C": 0.08858667904100823
+  },
+  "classification_report": {
+    "no": {
+      "precision": 1.0,
+      "recall": 0.52,
+      "f1-score": 0.6842105263157895,
+      "support": 25.0
+    },
+    "yes": {
+      "precision": 0.7391304347826086,
+      "recall": 1.0,
+      "f1-score": 0.85,
+      "support": 34.0
+    },
+    "accuracy": 0.7966101694915254,
+    "macro avg": {
+      "precision": 0.8695652173913043,
+      "recall": 0.76,
+      "f1-score": 0.7671052631578947,
+      "support": 59.0
+    },
+    "weighted avg": {
+      "precision": 0.8496683861459101,
+      "recall": 0.7966101694915254,
+      "f1-score": 0.779750223015165,
+      "support": 59.0
+    }
+  },
+  "n_train": 234,
+  "n_test": 59
+}
