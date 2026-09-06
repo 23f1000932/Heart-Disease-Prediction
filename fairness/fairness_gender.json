@@ -1,0 +1,30 @@
+{
+  "sensitive_attribute": "gender",
+  "by_group": {
+    "accuracy": {
+      "female": 0.9411764705882353,
+      "male": 0.7380952380952381
+    },
+    "selection_rate": {
+      "female": 0.8823529411764706,
+      "male": 0.7380952380952381
+    },
+    "precision": {
+      "female": 0.9333333333333333,
+      "male": 0.6451612903225806
+    },
+    "recall": {
+      "female": 1.0,
+      "male": 1.0
+    }
+  },
+  "overall": {
+    "accuracy": 0.7966101694915254,
+    "selection_rate": 0.7796610169491526,
+    "precision": 0.7391304347826086,
+    "recall": 1.0
+  },
+  "demographic_parity_difference": 0.14425770308123242,
+  "demographic_parity_ratio": 0.8365079365079365,
+  "equalized_odds_difference": 0.16666666666666669
+}
