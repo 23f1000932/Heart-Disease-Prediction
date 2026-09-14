@@ -407,16 +407,3 @@ CI/CD handles steps 4–5 automatically on every push to `main` once
 `GCP_SA_KEY` and `GCP_PROJECT_ID` are set as repository secrets.
 
 ---
-
-## 12. Deliverables Summary
-
-| Deliverable | Marks | Status | Key files |
-|---|---|---|---|
-| 1. Private repo + collaborator | Mandatory | ✅ | Repo settings |
-| 2. Model explainability | 10 | ✅ | `explain.py`, `explainability/` |
-| 3. Fairness testing | 10 | ✅ | `fairness.py`, `fairness/` |
-| 4. Dockerized API on GKE + CI/CD | 40 | ✅ | `app.py`, `Dockerfile`, `k8s-*.yaml`, `.github/workflows/deploy.yml` |
-| 5. Per-sample logging & observability | 20 | ✅ | `generate_and_predict.py`, `predictions/` |
-| 6. Stress testing (`wrk`) | 10 | ✅ | `post.lua`, `wrk_results.txt`, `wrk_results_README.md` |
-| 7. Input drift detection | 10 | ✅ | `drift_detection.py`, `drift/` |
-| **Total** | **100** | | |
